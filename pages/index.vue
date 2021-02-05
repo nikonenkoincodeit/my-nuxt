@@ -1,33 +1,7 @@
 <template>
   <div>
     <Slider />
-    <!-- / navigation -->
-    <!-- <div id="slider">
-      <ul>
-        <li>
-          <h3>Make your life better</h3>
-          <h2>Genuine diamonds</h2>
-          <a href="#" class="btn-more">Read more</a>
-        </li>
-        <li
-          class="purple"
-          style="background-image: url(../assets/images/01.jpg)"
-        >
-          <h3>She will say “yes”</h3>
-          <h2>engagement ring</h2>
-          <a href="#" class="btn-more">Read more</a>
-        </li>
-        <li
-          class="yellow"
-          style="background-image: url(../assets/images/02.jpg)"
-        >
-          <h3>You deserve to be beauty</h3>
-          <h2>golden bracelets</h2>
-          <a href="#" class="btn-more">Read more</a>
-        </li>
-      </ul>
-    </div> -->
-    <!-- / body -->
+
     <div id="body">
       <div class="container">
         <div class="last-products">
@@ -65,7 +39,8 @@
             </article>
           </section>
         </div>
-        <section class="quick-links">
+        <QuickLinks />
+        <!-- <section class="quick-links">
           <article style="background: url(../assets/images/2.jpg)">
             <a href="#" class="table">
               <div class="cell">
@@ -101,7 +76,7 @@
               </div>
             </a>
           </article>
-        </section>
+        </section> -->
       </div>
       <!-- / container -->
     </div>
@@ -110,10 +85,12 @@
 </template>
 <script>
 import Slider from "../components/Slider";
+import QuickLinks from "../components/QuickLinks";
 
 export default {
   name: "PageIndex",
   components: {
+    QuickLinks,
     Slider
   }
 };
