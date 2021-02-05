@@ -66,7 +66,7 @@
           </section>
         </div>
         <section class="quick-links">
-          <article style="background-image: url(../assets/images/2.jpg)">
+          <article style="background: url(../assets/images/2.jpg)">
             <a href="#" class="table">
               <div class="cell">
                 <div class="text">
@@ -77,10 +77,7 @@
               </div>
             </a>
           </article>
-          <article
-            class="red"
-            style="background-image: url(../assets/images/3.jpg)"
-          >
+          <article class="red" style="background: url(../assets/images/3.jpg)">
             <a href="#" class="table">
               <div class="cell">
                 <div class="text">
@@ -93,7 +90,7 @@
               </div>
             </a>
           </article>
-          <article style="background-image: url(../assets/images/4.jpg)">
+          <article style="background: url(../assets/images/4.jpg)">
             <a href="#" class="table">
               <div class="cell">
                 <div class="text">
