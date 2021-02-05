@@ -1,25 +1,32 @@
 <template>
   <div>
+    <Slider />
     <!-- / navigation -->
-    <div id="slider">
+    <!-- <div id="slider">
       <ul>
         <li>
           <h3>Make your life better</h3>
           <h2>Genuine diamonds</h2>
           <a href="#" class="btn-more">Read more</a>
         </li>
-        <!-- <li class="purple" style="background-image: url(../assets/images/01.jpg)">
+        <li
+          class="purple"
+          style="background-image: url(../assets/images/01.jpg)"
+        >
           <h3>She will say “yes”</h3>
           <h2>engagement ring</h2>
           <a href="#" class="btn-more">Read more</a>
         </li>
-        <li class="yellow" style="background-image: url(../assets/images/02.jpg)">
+        <li
+          class="yellow"
+          style="background-image: url(../assets/images/02.jpg)"
+        >
           <h3>You deserve to be beauty</h3>
           <h2>golden bracelets</h2>
           <a href="#" class="btn-more">Read more</a>
-        </li> -->
+        </li>
       </ul>
-    </div>
+    </div> -->
     <!-- / body -->
     <div id="body">
       <div class="container">
@@ -105,7 +112,12 @@
   </div>
 </template>
 <script>
+import Slider from "../components/Slider";
+
 export default {
   name: "PageIndex",
+  components: {
+    Slider
+  }
 };
 </script>

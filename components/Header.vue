@@ -45,7 +45,7 @@ export default {
     width: 20px;
     height: 20px;
     margin: 5px 12px 0 0;
-    //background: url(~/assets/images/ico_header.png) no-repeat;
+    background: url(../assets/images/ico_header.png) no-repeat;
   }
   .right-links span.ico-account {
     background-position: -20px 0;
@@ -72,6 +72,6 @@ export default {
   float: left;
   cursor: pointer;
   text-indent: -9999em;
-  //background: url(~/assets/images/logo.png) no-repeat;
+  background: url(../assets/images/logo.png) no-repeat;
 }
 </style>
