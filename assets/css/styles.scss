@@ -181,60 +181,6 @@ a:hover {
 }
 
 
-/* Header
-------------------------------------------------------------------------------*/
-
-#header .container {
-	height: 93px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #dcdcdc;
-}
-
-#header .right-links {
-	float: right;
-	padding: 13px 0 0;
-	font-family: "Novecentowide";
-}
-
-#header .right-links span {
-	float: left;
-	width: 20px;
-	height: 20px;
-	margin: 5px 12px 0 0;
-	background: url(../images/ico_header.png) no-repeat;
-}
-
-#header .right-links span.ico-account {
-	background-position: -20px 0;
-}
-
-#header .right-links span.ico-signout {
-	background-position: -40px 0;
-}
-
-#header .right-links li {
-	float: left;
-	color: #656567;
-	font-weight: 500;
-	padding-left: 37px;
-	font-size: 12px;
-}
-
-#header .right-links a {
-	color: #656567;
-}
-
-#logo {
-	width: 197px;
-	height: 52px;
-	display: block;
-	float: left;
-	cursor: pointer;
-	text-indent: -9999em;
-	background: url(../images/logo.png) no-repeat;
-}
-
 
 /* Navigation
 ------------------------------------------------------------------------------*/
@@ -293,17 +239,27 @@ a:hover {
 	text-align: center;
 	position: relative;
 	background: #000;
+    height: 100vh;
+
+    .bx-pager {
+        position: absolute;
+        bottom: 10px;
+        z-index: 99;
+        left: 0;
+        right: 0;
+        font-size: 0;
+        text-align: center;
+    }
+
+    ul {
+        :nth-child(1) {
+            height: auto;
+            background: url(../images/rings.jpg);
+        }
+    }
 }
 
-#slider .bx-pager {
-	position: absolute;
-	bottom: 10px;
-	z-index: 99;
-	left: 0;
-	right: 0;
-	font-size: 0;
-	text-align: center;
-}
+
 
 #slider .bx-pager div {
 	padding: 0 2px;
@@ -1363,7 +1319,7 @@ h1 {
 ------------------------------------------------------------------------------*/ 
 
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-reso#lution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2) { 
 
 	#logo {
 		background-image: url(../images/logo@2x.png);
