@@ -1,43 +1,45 @@
 <template>
-  <section class="quick-links d-flex">
-    <article>
-      <a href="#" class="table">
-        <div class="cell">
-          <div class="text">
-            <h4>Lorem ipsum</h4>
-            <hr />
-            <h3>Dolor sit amet</h3>
+  <div class="container">
+    <section class="quick-links d-flex">
+      <article>
+        <a href="#" class="table">
+          <div class="cell">
+            <div class="text">
+              <h4>Lorem ipsum</h4>
+              <hr />
+              <h3>Dolor sit amet</h3>
+            </div>
           </div>
-        </div>
-      </a>
-    </article>
+        </a>
+      </article>
 
-    <article class="red">
-      <a href="#" class="table">
-        <div class="cell">
-          <div class="text">
-            <h4>consequatur</h4>
-            <hr />
-            <h3>voluptatem</h3>
-            <hr />
-            <p>Accusantium</p>
+      <article class="red">
+        <a href="#" class="table">
+          <div class="cell">
+            <div class="text">
+              <h4>consequatur</h4>
+              <hr />
+              <h3>voluptatem</h3>
+              <hr />
+              <p>Accusantium</p>
+            </div>
           </div>
-        </div>
-      </a>
-    </article>
+        </a>
+      </article>
 
-    <article>
-      <a href="#" class="table">
-        <div class="cell">
-          <div class="text">
-            <h4>culpa qui officia</h4>
-            <hr />
-            <h3>magnam aliquam</h3>
+      <article>
+        <a href="#" class="table">
+          <div class="cell">
+            <div class="text">
+              <h4>culpa qui officia</h4>
+              <hr />
+              <h3>magnam aliquam</h3>
+            </div>
           </div>
-        </div>
-      </a>
-    </article>
-  </section>
+        </a>
+      </article>
+    </section>
+  </div>
 </template>
 
 <script>
